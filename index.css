@@ -107,8 +107,16 @@ nav  li{
 	margin: 0px 5px;	padding: 10px 15px;	cursor: pointer;
 }
 
+nav li a {
+	color: white;
+}
+
 .m_active{
-	background: #fff !important;	color: #00b1e0 !important;
+	background: #fff !important;
+}
+
+.m_active a {
+	color: #00b1e0 !important;
 }
 
 .main{
@@ -121,7 +129,7 @@ nav  li{
 	border-radius: 5px;
 	-webkit-box-shadow: 5px 5px 0px rgba(0,177,224,0.6), 10px 10px 0px rgba(0,177,224,0.3);
 	-moz-box-shadow: 5px 5px 0px rgba(0,177,224,0.6), 10px 10px 0px rgba(0,177,224,0.3);
-	box-shadow: 5px 5px 0px rgba(0,177,224,150,0.6), 10px 10px 0px rgba(0,177,224,0.3);
+	box-shadow: 5px 5px 0px rgba(0,177,224,0.6), 10px 10px 0px rgba(0,177,224,0.3);
 }
 
 /*************************Content**********************/
@@ -178,7 +186,7 @@ nav  li{
 
 /*****************Media Queries******************/
 
-@media screen max-with(750px){
+@media screen and (max-with: 750px){
 .teaser{
 	float: none;
 }	
