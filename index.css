@@ -192,6 +192,7 @@ nav li a {
 
 @media screen and (orientation: portrait){
 .teaser{ float: none; width: auto; margin: 10px 0px;}	
+.teaser p { text-align: center;}
 
 .nav li{ font-size: 12px; margin: 0px 2px; padding: 10px 5px;}
 
