@@ -190,7 +190,7 @@ nav li a {
 
 /*****************Media Queries******************/
 
-@media screen and (max-with: 750px){
+@media screen and (orientation: portrait){
 .teaser{
 	float: none;
 }	
