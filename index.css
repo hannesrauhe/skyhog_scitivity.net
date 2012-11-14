@@ -191,6 +191,7 @@ nav li a {
 /*****************Media Queries******************/
 
 @media screen and (orientation: portrait){
+
 .teaser{ float: none; width: auto; margin: 10px 0px;}	
 .teaser p { text-align: center;}
 
