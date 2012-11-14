@@ -191,8 +191,8 @@ nav li a {
 /*****************Media Queries******************/
 
 @media screen and (orientation: portrait){
-.teaser{ float: none;}	
+.teaser{ float: none; width: auto; margin: 2% 0;}	
 
-.nav h4{ font-size: 12px;}
+.nav li{ font-size: 12px; margin: 0px 2px; padding: 10px 5px;}
 
 }
