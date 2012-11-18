@@ -190,7 +190,7 @@ nav li a {
 
 /*****************Media Queries******************/
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: portrait) and (max-width: 760px){
 
 #wrapper { width: 90%;}
 
